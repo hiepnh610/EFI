@@ -1,27 +1,38 @@
-### Hackintosh config for Core i7 9700 | Gigabyte Z390 Gaming X | GTX 650 GK107 Core(Native support, no need KEXT)
+### Hackintosh config for Core i7 9700 | Gigabyte Z390 Gaming X | GTX 650 GK107 Core(Native support, no need the KEXT)
 
 ***
 
 #### KEXT
-  **Network:**
+  - **Network:**
+  **Source:**
   https://bitbucket.org/RehabMan/os-x-intel-network/downloads/
 
 ***
 
 #### DRIVER
-  **OsxAptioFixDrv-2000free**
-  *Fix error allocating 0x#### at alloc type, error allocating runtime area*
+  - **OsxAptioFixDrv-2000free**
 
-  **Source:**
-  https://drive.google.com/file/d/0B2-g_coTRnPnaU53Z1F6Qm5OeXM/view
+    *Fix error allocating 0x#### at alloc type, error allocating runtime area*
+
+    **Source:**
+    https://drive.google.com/file/d/0B2-g_coTRnPnaU53Z1F6Qm5OeXM/view
 
 ***
 
 #### TOOLS
-  *To fix some errors such as USB port ...*
+  - **CLOVER**
+    **Source:**
+    https://github.com/CloverHackyColor/CloverBootloader/releases
 
-  **Source:**
-  https://www.tonymacx86.com/resources/categories/tonymacx86-downloads.3/
+  - **CLOVER CONFIGURATOR**
+    **Source:**
+    https://mackie100projects.altervista.org/download-clover-configurator/
+
+  - **TONYMACx86**
+    *To fix some errors, such as USB port ...*
+
+    **Source:**
+    https://www.tonymacx86.com/resources/categories/tonymacx86-downloads.3/
 
 ***
 
