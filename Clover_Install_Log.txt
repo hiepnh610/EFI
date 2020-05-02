@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Sat Mar 28 12:28:17 +07 2020
-Installer version: r5107 EFI bootloader
+Clover EFI installer log - Sun Apr 19 21:00:55 +07 2020
+Installer version: r5112 EFI bootloader
 ======================================================
 /dev/disk0 (internal):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -25,29 +25,28 @@ Installer version: r5107 EFI bootloader
    1:           Windows Recovery                         554.7 MB   disk3s1
    2:                        EFI NO NAME                 104.9 MB   disk3s2
    3:         Microsoft Reserved                         16.8 MB    disk3s3
-   4:       Microsoft Basic Data                         119.4 GB   disk3s4
+   4:       Microsoft Basic Data Windows                 119.4 GB   disk3s4
 
 /dev/disk4 (synthesized):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +249.8 GB   disk4
                                  Physical Store disk0s2
-   1:                APFS Volume MOJAVE                  25.2 GB    disk4s1
-   2:                APFS Volume Preboot                 45.2 MB    disk4s2
+   1:                APFS Volume Mojave                  77.5 GB    disk4s1
+   2:                APFS Volume Preboot                 73.7 MB    disk4s2
    3:                APFS Volume Recovery                510.4 MB   disk4s3
-   4:                APFS Volume VM                      2.1 GB     disk4s4
+   4:                APFS Volume VM                      20.5 KB    disk4s4
 
-Target volume /Volumes/MOJAVE on disk4 is APFS on physical store disk0s2
+Target volume /Volumes/Mojave on disk4 is APFS on physical store disk0s2
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/MOJAVE/EFIROOTDIR/EFI folder to /Volumes/MOJAVE/EFI-Backups/r5103/2020-03-28-12h28/EFI
+Backing up /Volumes/Mojave/EFIROOTDIR/EFI folder to /Volumes/Mojave/EFI-Backups/r5108/2020-04-19-21h00/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
 Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
 Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
 
-Using default theme 'embedded'
 ======================================================
 =========== Clover EFI Installation Finish ===========
 ======================================================

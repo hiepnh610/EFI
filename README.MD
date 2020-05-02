@@ -62,3 +62,9 @@
   https://www.insanelymac.com/forum/topic/334995-how-to-fix-unknown-cpu-error-in-about-this-mac/
 
 ***
+
+#### Scripts
+  **Remove log when boot**
+  ```sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.Boot.plist 'Kernel Flags' ''```
+
+***
